@@ -1,0 +1,60 @@
+.show-edit-category-table thead th {
+  background-color: #1e272e;
+  color: #EC861D; }
+  .show-edit-category-table thead th::after {
+    opacity: .6 !important; }
+
+.show-edit-category-table td .modal-btn {
+  display: grid;
+  align-items: center;
+  justify-items: center; }
+  .show-edit-category-table td .modal-btn img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%; }
+
+.modal .modal-dialog .modal-body form .form-div {
+  display: grid;
+  justify-items: center; }
+  .modal .modal-dialog .modal-body form .form-div label {
+    margin: 0;
+    transform: translate(0, -50%);
+    display: grid;
+    justify-content: center;
+    cursor: pointer; }
+    .modal .modal-dialog .modal-body form .form-div label i {
+      font-size: 52px;
+      padding: 18px 22px;
+      border-radius: 50%;
+      line-height: 1;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+      color: #EC861D;
+      background-color: #fff;
+      transition: all .3s ease-out; }
+    .modal .modal-dialog .modal-body form .form-div label:hover i {
+      background-color: #EC861D;
+      color: #fff; }
+  .modal .modal-dialog .modal-body form .form-div input[type="file"] {
+    opacity: 0;
+    visibility: hidden;
+    height: 0; }
+
+.modal .modal-dialog .modal-footer button {
+  background-color: transparent;
+  border: 0;
+  transition: all .2s ease-out; }
+  .modal .modal-dialog .modal-footer button.btn-secondary {
+    color: #EC861D;
+    border: 1px solid #EC861D;
+    background-color: aliceblue; }
+    .modal .modal-dialog .modal-footer button.btn-secondary:hover {
+      background-color: red;
+      color: #fff;
+      border-color: red; }
+  .modal .modal-dialog .modal-footer button.btn-primary {
+    background-color: #EC861D;
+    color: #fff;
+    border: 1px solid transparent; }
+    .modal .modal-dialog .modal-footer button.btn-primary:hover {
+      background-color: green; }
